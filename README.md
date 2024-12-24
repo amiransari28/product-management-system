@@ -3,17 +3,14 @@
 This is a Quarkus-based REST API application designed to perform CRUD operations on a product management system. It uses Quarkus Reactive to handle asynchronous and non-blocking database interactions.
 
 ## Features
-
-1. **Product Entity:**
-   - Attributes: `id`, `name`, `description`, `price`, `quantity`.
    
-2. **CRUD Operations:**
+1. **CRUD Operations:**
    - Create a new product.
    - Get a list of all products and the details of a specific product by its `id`.
    - Update the details of an existing product by `id`.
    - Delete a product by `id`.
 
-3. **Additional Features:**
+2. **Additional Features:**
    - **Check stock availability:** An endpoint to check if a product has a specified quantity available.
    - **Get products sorted by price:** Endpoint to retrieve all products ordered by price in ascending order.
 
@@ -27,7 +24,7 @@ This is a Quarkus-based REST API application designed to perform CRUD operations
 
 ### 1. Clone the repository
 
-1. `git clone https://github.com/your-repo/product-management-system.git`
+1. `git clone https://github.com/amiransari28/product-management-system.git`
 2. `cd product-management-system`
 
 ### 2. Build and Run the Application
